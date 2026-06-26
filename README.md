@@ -19,7 +19,7 @@ Marker genes (DEGs) per Oi-cluster via `FindAllMarkers` (Wilcoxon) on log-normal
 
 **03_Find_DEGs_of_Oi-clusters_FindConservedMarkers.r**
 
-Conserved markers per Oi-cluster via `FindConservedMarkers`, grouped by stage (`orig.ident`).
+Conserved markers per Oi-cluster via `FindConservedMarkers`, grouped by stage (`orig.ident`); export top 30.
 
 **04_CellChat_analysis.r**
 
@@ -27,7 +27,7 @@ Core CellChat run per stage: build spatial CellChat object, use the mouse Secret
 
 **05_Fig_S2_E13_5_number_of_retained_genes_using_different_trim_parameters.ipynb**
 
-Fig. S2 (E13.5): genes retained per Oi-cluster after intersecting over-expressed genes with non-zero detection fractions at trim = 0.1 / 0.05 / 0.01.
+Fig. S2 (E13.5): genes retained for signaling interaction prediction per Oi-cluster with trimming fractions at trim = 0.1 / 0.05 / 0.01.
 
 **06_Fig_S2_E9_5_number_of_retained_genes_using_different_trim_parameters.ipynb**
 
@@ -35,7 +35,7 @@ Fig. S2 (E9.5): same as 05 for E9.5.
 
 **07_Fig_3A_pathway_signaling_event_counts.r**
 
-Fig. 3A: per-pathway signaling-event counts (distinct source→target pairs) for each stage, mirrored bar plots.
+Fig. 3A: per-pathway signaling event counts (distinct source→target pairs) for each stage, mirrored bar plots.
 
 **08_Fig_S3_Oi-cluster_pathway_contribution.r**
 
