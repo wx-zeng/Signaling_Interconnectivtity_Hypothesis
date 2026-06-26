@@ -43,7 +43,7 @@ Fig. S3: per-Oi-cluster intra- vs inter-cluster pathway contributions, plotted a
 
 **09_Relative_strength_of_inter-Oi-cluster_signaling_and_Ratio_of_inter-Oi-cluster_signaling_complexity.r**
 
-Per-cluster inter/intra signaling strength and complexity ratios; cross-stage comparison with paired (Wilcoxon signed-rank) and unpaired (Mann–Whitney U) tests plus effect sizes.
+Per-Oi-cluster relative strength of inter–Oi-cluster signaling and ratio of inter–Oi-cluster signaling complexity; cross-stage comparison with paired (Wilcoxon signed-rank) and unpaired (Mann–Whitney U) tests plus effect sizes.
 
 **10_E9_5_assortativity.r**
 
@@ -51,7 +51,7 @@ E9.5 signaling network: build weighted undirected graph (edge = total interactio
 
 **11_E13_5_assortativity_w_and_wo_E13_5-specific_Oi-clusters.R**
 
-E13.5 assortativity, with a `omit_clusters` switch to include/exclude the E13.5-specific clusters (27/29/30/31).
+E13.5 assortativity, with a `omit_clusters` switch to include/exclude the E13.5-specific Oi-clusters (27/29/30/31).
 
 **12_Assortativity_coefficient_cross-stage_comparison_z-test.r**
 
@@ -59,7 +59,7 @@ Two-sided z-test comparing E9.5 vs E13.5 assortativity coefficients (Newman 2003
 
 **13_Pleiotropy.r**
 
-Pseudo-bulk per Oi-cluster, CPM normalization, Tau tissue-specificity index (Yanai et al. 2005), per-cluster fraction of "pleiotropic" genes (Tau ≤ threshold) across thresholds 0.1–0.9, compared between stages (paired for shared clusters, unpaired for all clusters).
+Generate pseudo-bulk expression profile per Oi-cluster, CPM normalization, Tau tissue-specificity index (Yanai et al. 2005), per-Oi-cluster fraction of "pleiotropic" genes (Tau ≤ threshold) across thresholds 0.1–0.9, compared between stages (paired for shared clusters, unpaired for all clusters).
 
 ## Requirements
 
