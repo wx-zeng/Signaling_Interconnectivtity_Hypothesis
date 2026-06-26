@@ -65,10 +65,10 @@ Pseudo-bulk per Oi-cluster, CPM normalization, Tau tissue-specificity index (Yan
 
 **R**
 
-01-03 were conducted in a renv-based R environment (R 4.4) (background: Mamba virtual environment, based on Python 3.8, R 4.0.3).
+Scripts 01–03 were run under an renv-managed R 4.4 environment, within a Mamba virtual environment (Python 3.8, R 4.0.3).
 
-04, 07-13 were run on macOS Sonoma 14.5 with an Apple M1 chip, based on R 4.1, and the suggested package versions.
+Scripts 04 and 07-13 were run on macOS Sonoma 14.5 with an Apple M1 chip, based on R 4.1, and the suggested package versions.
 
 **Python** 
 
-05–06 were conducted in a Mamba virtual environment, based on Python 3.8.20, scanpy version 1.9.8, and other suggested package versions. PyTorch for CPU version 1.4.0 was used.
+Notebooks 05–06 were run in a Mamba virtual environment, based on Python 3.8.20, scanpy version 1.9.8, and other suggested package versions. PyTorch for CPU version 1.4.0 was used.
